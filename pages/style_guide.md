@@ -3,21 +3,24 @@ layout: default
 title: "Style Guide"
 teaser: "Styled reusable components of this site"
 permalink: "/styleguide/"
-image:
-   header: "unsplash_6_bus_header.jpg"
-   thumb: "unsplash_6_thumb.jpg"
+skip_boilerplate: false
 ---
 
 <h1 class="sg-h1">Styleguide Template</h1>
 
 <p>Boilerplate for creating components based style guides using <a href="http://jekyllrb.com">Jekyll</a>. Here is the <a href="https://github.com/jeromecoupe/jekyllstyleguide">Github repository</a> for it, should you want to have a peek at the code, fork it or report an issue.</p>
 
+
+{% comment %}
+
 {% assign entries = site.components %}
 {% for entry in entries %}
   {% include component.html %}
 {% endfor %}
 
-{% comment %}
+{% endcomment %}
+
+
 
 If you want to make sure your types are grouped (file names are not enough), you could use this group_by loop instead
 
@@ -29,7 +32,7 @@ If you want to make sure your types are grouped (file names are not enough), you
   {% endfor %}
 {% endfor %}
 
-{% endcomment %}
+
 
 
 

@@ -44,8 +44,43 @@ $flex-video-widescreen-padding-bottom: 56.34% !default;
   }
 }
 
+@mixin flickr-gallery-container {
+  position: relative;
+  padding-top: $flex-video-padding-top;
+  padding-bottom: $flex-video-padding-bottom;
+  height: 0;
+  margin-bottom: $flex-video-margin-bottom;
+  overflow: hidden;
+
+  &.widescreen { padding-bottom: $flex-video-widescreen-padding-bottom; }
+  &.vimeo { padding-top: 0; }
+
+  iframe,
+  object,
+  embed,
+  video {    
+    top: 0;
+    #{$default-float}: 0;
+    // Change these for FlickrIt div settings
+    width: 100%;
+    position: relative;
+    height: 0;
+    padding-bottom: 167%;
+    overflow: hidden;
+  }
+}
+
+
 @include exports("flex-video") {
   @if $include-html-media-classes {
     .flex-video { @include flex-video-container; }
   }
+
+  .flickr-gallery-class {
+  @include flickr-gallery-container();
+}
+}
+
+  .flickr-gallery-class {
+  @include flickr-gallery-container();
 }

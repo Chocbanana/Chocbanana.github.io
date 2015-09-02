@@ -9,8 +9,8 @@
 			<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>RSS Feed (Styled)</title>
-	<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css" />
-	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://Chocbanana.github.io/assets/css/styles_feeling_responsive.css" />
+	<script src="https://Chocbanana.github.io/assets/js/modernizr.min.js"></script>
 	
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
   <script>
@@ -25,78 +25,78 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700,400italic|Volkhov' rel='stylesheet' type='text/css' />
   </noscript>
   
-  <meta name="google-site-verification" content="Vk0IOJ2jwG_qEoG7fuEXYqv0m2rLa8P778Fi_GrsgEQ" />
-	<meta name="msvalidate.01" content="0FB4C028ABCF07C908C54386ABD2D97F" />
+  <meta name="google-site-verification" content="q1nqzJMgu9u36KUeUGuhnxJDla6gnn8UX9S5Rk4GGGg" />
+	
 	<meta name="description" content="A site made to showcase portfolios and (eventually) cool apps." />
 	
-	<link rel="author" href="https://plus.google.com/u/0/118311555303973066167"/>
+	
 
 	
 
 
 
 	
-	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png" />
+	<link rel="icon" sizes="32x32" href="https://Chocbanana.github.io/assets/img/favicon-32x32.png" />
 
 
 
 
 	
-	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png" />
+	<link rel="icon" sizes="192x192" href="https://Chocbanana.github.io/assets/img/touch-icon-192x192.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-180x180-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-152x152-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-144x144-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-120x120-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-114x114-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-76x76-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-72x72-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png" />	
+	<link rel="apple-touch-icon-precomposed" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-precomposed.png" />	
 
 
 
 
 	
-	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png" />
+	<meta name="msapplication-TileImage" content="https://Chocbanana.github.io/assets/img/msapplication_tileimage.png" />
 
 
 
@@ -111,7 +111,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="RSS Feed (Styled)" />
 	<meta property="og:description" content="A site made to showcase portfolios and (eventually) cool apps." />
-	<meta property="og:url" content="http://localhost:4000//assets/xslt/rss.xslt" />
+	<meta property="og:url" content="https://Chocbanana.github.io//assets/xslt/rss.xslt" />
 	<meta property="og:site_name" content="Infinite Abstraction" />
 	
 
@@ -120,7 +120,7 @@
 	<!-- Search Engine Optimization -->
 	
 
-	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt" />
+	<link type="text/plain" rel="author" href="https://Chocbanana.github.io/humans.txt" />
 
 	
 </head>
@@ -133,7 +133,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Infinite Abstraction</a></h1>
+      <h1 class="show-for-small-only"><a href="https://Chocbanana.github.io" class="icon-tree"> Infinite Abstraction</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
@@ -189,26 +189,10 @@
 
           
           
-        
-
-              
-                
-              
-
-          
-          
-        
-
-              
-                
-              
-
-          
-          
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/search/">Search</a></li>
+              <li><a href="https://Chocbanana.github.io/info/">About</a></li>
 
             
             
@@ -224,7 +208,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="http://localhost:4000/contact/">Contact</a></li>
+              <li><a href="https://Chocbanana.github.io/contact/">Contact</a></li>
 
             
             
@@ -245,24 +229,7 @@
 
             
             
-              <li><a href="http://localhost:4000/">Start</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="http://localhost:4000/getting-started/">Getting Started</a></li>
+              <li><a href="https://Chocbanana.github.io/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -281,7 +248,7 @@
             
 
               <li class="has-dropdown">
-                <a href="http://localhost:4000/design/">Templates</a>
+                <a href="https://Chocbanana.github.io/portfolio/">Portfolio</a>
 
                   <ul class="dropdown">
                     
@@ -290,70 +257,7 @@
                         
                       
 
-                      <li><a href="http://localhost:4000/design/grid/">Grid &amp; Colors</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/typography/">Typography</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/page/">Page/Post</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/post-left-sidebar/">Post-Left-Sidebar</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/post-right-sidebar/">Post-Right-Sidebar</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/page-fullwidth/">Page Full-Width</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/blog/">Blog-Page</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/video/">Video</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/gallery/">Gallery</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/portfolio/">Portfolio</a></li>
+                      <li><a href="https://Chocbanana.github.io/portfolio/ceramics/">Ceramics</a></li>
                     
                   </ul>
                   
@@ -374,7 +278,7 @@
             
 
               <li class="has-dropdown">
-                <a href="http://localhost:4000/headers/">Header Styles</a>
+                <a href="https://Chocbanana.github.io/code/">Code</a>
 
                   <ul class="dropdown">
                     
@@ -383,49 +287,7 @@
                         
                       
 
-                      <li><a href="http://localhost:4000/design/header-full-width-image/">Header with Full-Width-Image</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/header-image-pattern/">Header with Image and Pattern</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/header-image-color/">Header with image and color</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/header-logo-only/">Header Only With Logo</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/header-with-text/">Header With Text</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/no-header/">No Header</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/design/no-header-but-image/">No Header but Image</a></li>
+                      <li><a href="https://Chocbanana.github.io/code/website/">This Website</a></li>
                     
                   </ul>
                   
@@ -444,30 +306,10 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a href="http://localhost:4000/documentation/">Documentation</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/changelog/">Changelog</a></li>
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/roadmap/">Roadmap</a></li>
-                    
-                  </ul>
-                  
-              </li>
+              <li><a href="https://Chocbanana.github.io/blog/">Blog</a></li>
               <li class="divider"></li>
+
+            
             
           
         
@@ -481,37 +323,7 @@
 
             
             
-
-              <li class="has-dropdown">
-                <a href="http://localhost:4000/blog/">Blog</a>
-
-                  <ul class="dropdown">
-                    
-
-                      
-                        
-                      
-
-                      <li><a href="http://localhost:4000/blog/archive/">Blog Archive</a></li>
-                    
-                  </ul>
-                  
-              </li>
-              <li class="divider"></li>
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="http://localhost:4000/styleguide/">Style Guide</a></li>
+              <li><a href="https://Chocbanana.github.io/milestones/">Milestones</a></li>
               <li class="divider"></li>
 
             
@@ -545,8 +357,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="http://localhost:4000" title="Infinite Abstraction – It's fractals all the way down">
-				<img src="http://localhost:4000/assets/img/logo.png" alt="Infinite Abstraction – It's fractals all the way down">
+			<a id="logo" href="https://Chocbanana.github.io" title="Infinite Abstraction – It's fractals all the way down">
+				<img src="https://Chocbanana.github.io/assets/img/logo.png" alt="Infinite Abstraction – It's fractals all the way down">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -625,7 +437,7 @@
 
             <p class="shadow-black">
               A site made to showcase portfolios and (eventually) cool apps.
-              <a href="http://localhost:4000/info/">More ›</a>
+              <a href="https://Chocbanana.github.io/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -633,7 +445,7 @@
           <div class="small-6 medium-3 large-3 large-offset-1 columns">
             
               
-                <h5 class="shadow-black">Services</h5>
+                <h5 class="shadow-black">Services (Coming Soon)</h5>
               
             
               
@@ -679,7 +491,7 @@
           <div class="small-6 medium-3 large-3 columns">
             
               
-                <h5 class="shadow-black">Dankeschön</h5>
+                <h5 class="shadow-black">Made With</h5>
               
             
               
@@ -705,17 +517,17 @@
             
               
                 <li class="services-newsletter" >
-                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Built on Foundation</a>
-                </li>
-            
-              
-                <li class="rss-link" >
-                  <a href="http://unsplash.com/" target="_blank"  title="Images by Unsplash">Images by Unsplash</a>
+                  <a href="http://foundation.zurb.com/" target="_blank"  title="Built on Foundation">Foundation</a>
                 </li>
             
               
                 <li class="sitemap-link" >
-                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Using Backstretch by Scott Robbin</a>
+                  <a href="http://srobbin.com/jquery-plugins/backstretch/" target="_blank"  title="Using Backstretch by Scott Robbin">Backstretch by Scott Robbin</a>
+                </li>
+            
+              
+                <li class="sitemap-link" >
+                  <a href="http://phlow.github.io/feeling-responsive/" target="_blank"  title="Feeling Responsive by phlow">Feeling Responsive by phlow</a>
                 </li>
             
             </ul>
@@ -725,7 +537,7 @@
       </div><!-- /#footer -->
 
 
-      <div id="subfooter">
+<!--       <div id="subfooter">
         <nav class="row">
           <section id="subfooter-left" class="b30 small-12 medium-6 columns credits">
             <p>
@@ -739,34 +551,35 @@
           <section id="subfooter-right" class="small-12 medium-6 columns social-icons">
             <ul class="inline-list">
             
-              <li><a href="http://www.youtube.com/PhlowMedia" target="_blank" class="icon-youtube" title="Videos, Video-Anleitungen und Filme von Phlow auf YouTube"></a></li>
+              <li><a href="http://github.com/Chocbanana" target="_blank" class="icon-github" title="My Repositories"></a></li>
             
-              <li><a href="http://twitter.com/phlow" target="_blank" class="icon-twitter" title="Immer das Neuste von Phlow gibt es auf Twitter"></a></li>
-            
-              <li><a href="http://www.facebook.com/phlow.media" target="_blank" class="icon-facebook" title="Lass uns Freunde sein!"></a></li>
-            
-              <li><a href="http://soundcloud.com/phlow" target="_blank" class="icon-soundcloud" title="Sounds und Downloads und mehr"></a></li>
-            
-              <li><a href="http://github.com/phlow" target="_blank" class="icon-github" title="Code und mehr..."></a></li>
-            
-              <li><a href="http://instagram.com/phlowmedia" target="_blank" class="icon-instagram" title="Bilder und Impressionen mit und ohne Filter..."></a></li>
-            
-              <li><a href="http://www.pinterest.com/phlowmedia/" target="_blank" class="icon-pinterest" title="Bilder, Fotos, Illustrationen, Grafiken sammeln..."></a></li>
-            
-              <li><a href="http://www.mixcloud.com/phlow/" target="_blank" class="icon-cloud" title="Mixe, was sonst?"></a></li>
+              <li><a href="https://www.flickr.com/photos/135898386@N03/albums" target="_blank" class="icon-flickr" title="Galleries Hosted on Flickr"></a></li>
             
             </ul>
           </section>
         </nav>
       </div><!-- /#subfooter -->
-    </footer>
-
-		<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
+    </footer> 
 
 
+		<script src="https://Chocbanana.github.io/assets/js/javascript.min.js"></script>
 
 
 
+
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-67019530-1', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
+
+</script>
 
 
 
