@@ -10,15 +10,16 @@ header:
     caption: Image from dA
     caption_url: "http://hederahelix31415927.deviantart.com/art/Mandala-372726557"
 widget1:
-  title: "Portfolio"
-  url: '/portfolio/'
-  image: portfolio/head.jpg
-  text: 'My various ventures in sketching, painting, charcoal, ink and pencil, ceramic, fabric paint, and paracord creations...'
-widget2:
   title: "Code"
   url: '/code/'
   text: "Some coding projects that I've done, with details on the features, usage and source..."
   image: header_osc.jpg
+
+widget2:
+  title: "Portfolio"
+  url: '/portfolio/'
+  image: portfolio/head.jpg
+  text: 'My various ventures in sketching, painting, charcoal, ink and pencil, ceramic, fabric paint, and paracord creations...'
 
 widget3:
   title: Milestones
