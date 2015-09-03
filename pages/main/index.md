@@ -21,10 +21,10 @@ widget2:
   image: header_osc.jpg
 
 widget3:
-  title: 
-  url: 
-  image: 
-  text: 
+  title: Milestones
+  url: '/milestones/'
+  image: header_osc2.jpg
+  text: "Check out my future goals and changelog! I have such lofty plans, and obsessive ideas… but I always forget about the finite resource that is time."
 
 permalink: /index.html
 
