@@ -14,13 +14,14 @@
 - title: "Code"
   url: "/code/"
   side: left
-  dropdown:
-  - title: "This Website"
-    url: "/code/website/"
+
 
 - title: Blog
   url: "/blog/"
-  side: left
+  side: left  
+  dropdown:
+  - title: "Milestones"
+    url: "/milestones/"
 
 
 # - title: "Style Guide"
