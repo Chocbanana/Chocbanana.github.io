@@ -1,5 +1,6 @@
 ---
 layout: page
+breadcrumb: true
 comments: true
 
 title: "Milestones"
@@ -33,8 +34,7 @@ I have such lofty plans, optimistic timelines, and obsessive ideas... but I alwa
 
 
 ## TODO for website
-* FIX FLICKR GALLERY EMBEDDING
-* Document what Js is included because right now it's just one weird copypasta file
+* Document what Js is included, because right now it's just one weird copypasta file
 * Implement style guide, so that themes can be shifted
 * Integrate social media sharing for posts, and for contacting me
 * Use font awesome instead of current icons
@@ -47,6 +47,6 @@ I have such lofty plans, optimistic timelines, and obsessive ideas... but I alwa
 
 
 ## Done
-- Set up Flickr galleries
+- Set up Flickr galleries/embedding
 - Lauch site
 - Spend a lot of time reading up on random things but also RNNs, web dev, network visualization, jekyll, and theano
