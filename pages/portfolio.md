@@ -22,6 +22,6 @@ header:
     caption_url: "http://hederahelix31415927.deviantart.com/art/Mandala-372726557"
 ---
 
-### Galleries broken right now, find them <a href="https://www.flickr.com/photos/135898386@N03/albums">here</a>... come back later tho!!!
+To view all pieces collectively, please visit [my Flickr](https://www.flickr.com/photos/135898386@N03/albums)
 
 {% include list-posts category='portfolio' img=true %}
