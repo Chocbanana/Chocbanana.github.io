@@ -9,8 +9,8 @@
 			<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<title>Atom Feed (Styled)</title>
-	<link rel="stylesheet" type="text/css" href="https://Chocbanana.github.io/assets/css/styles_feeling_responsive.css" />
-	<script src="https://Chocbanana.github.io/assets/js/modernizr.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://localhost:4000/assets/css/styles_feeling_responsive.css" />
+	<script src="http://localhost:4000/assets/js/modernizr.min.js"></script>
 	
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js"></script>
   <script>
@@ -36,67 +36,67 @@
 
 
 	
-	<link rel="icon" sizes="32x32" href="https://Chocbanana.github.io/assets/img/favicon-32x32.png" />
+	<link rel="icon" sizes="32x32" href="http://localhost:4000/assets/img/favicon-32x32.png" />
 
 
 
 
 	
-	<link rel="icon" sizes="192x192" href="https://Chocbanana.github.io/assets/img/touch-icon-192x192.png" />
+	<link rel="icon" sizes="192x192" href="http://localhost:4000/assets/img/touch-icon-192x192.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-180x180-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="180x180" href="http://localhost:4000/assets/img/apple-touch-icon-180x180-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-152x152-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="http://localhost:4000/assets/img/apple-touch-icon-152x152-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-144x144-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://localhost:4000/assets/img/apple-touch-icon-144x144-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-120x120-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="http://localhost:4000/assets/img/apple-touch-icon-120x120-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-114x114-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://localhost:4000/assets/img/apple-touch-icon-114x114-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-76x76-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="76x76" href="http://localhost:4000/assets/img/apple-touch-icon-76x76-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-72x72-precomposed.png" />
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://localhost:4000/assets/img/apple-touch-icon-72x72-precomposed.png" />
 
 
 
 
 	
-	<link rel="apple-touch-icon-precomposed" href="https://Chocbanana.github.io/assets/img/apple-touch-icon-precomposed.png" />	
+	<link rel="apple-touch-icon-precomposed" href="http://localhost:4000/assets/img/apple-touch-icon-precomposed.png" />	
 
 
 
 
 	
-	<meta name="msapplication-TileImage" content="https://Chocbanana.github.io/assets/img/msapplication_tileimage.png" />
+	<meta name="msapplication-TileImage" content="http://localhost:4000/assets/img/msapplication_tileimage.png" />
 
 
 
@@ -111,7 +111,7 @@
 	<meta property="og:type" content="website" />
 	<meta property="og:title" content="Atom Feed (Styled)" />
 	<meta property="og:description" content="A site made to showcase portfolios and (eventually) cool apps." />
-	<meta property="og:url" content="https://Chocbanana.github.io//assets/xslt/atom.xslt" />
+	<meta property="og:url" content="http://localhost:4000//assets/xslt/atom.xslt" />
 	<meta property="og:site_name" content="Infinite Abstraction" />
 	
 
@@ -120,7 +120,7 @@
 	<!-- Search Engine Optimization -->
 	
 
-	<link type="text/plain" rel="author" href="https://Chocbanana.github.io/humans.txt" />
+	<link type="text/plain" rel="author" href="http://localhost:4000/humans.txt" />
 
 	
 </head>
@@ -133,7 +133,7 @@
   <nav class="top-bar" role="navigation" data-topbar>
     <ul class="title-area">
       <li class="name">
-      <h1 class="show-for-small-only"><a href="https://Chocbanana.github.io" class="icon-tree"> Infinite Abstraction</a></h1>
+      <h1 class="show-for-small-only"><a href="http://localhost:4000" class="icon-tree"> Infinite Abstraction</a></h1>
     </li>
        <!-- Remove the class "menu-icon" to get rid of menu icon. Take out "Menu" to just have icon alone -->
       <li class="toggle-topbar menu-icon"><a href="#"><span>Navigation</span></a></li>
@@ -181,6 +181,14 @@
 
           
           
+            
+            
+              <li class="divider"></li>
+              <li><a href="http://localhost:4000/info/">About</a></li>
+
+            
+            
+          
         
 
               
@@ -192,23 +200,7 @@
             
             
               <li class="divider"></li>
-              <li><a href="https://Chocbanana.github.io/info/">About</a></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-            
-            
-              <li class="divider"></li>
-              <li><a href="https://Chocbanana.github.io/contact/">Contact</a></li>
+              <li><a href="http://localhost:4000/contact/">Contact</a></li>
 
             
             
@@ -229,7 +221,7 @@
 
             
             
-              <li><a href="https://Chocbanana.github.io/">Home</a></li>
+              <li><a href="http://localhost:4000/">Home</a></li>
               <li class="divider"></li>
 
             
@@ -248,7 +240,7 @@
             
 
               <li class="has-dropdown">
-                <a href="https://Chocbanana.github.io/portfolio/">Portfolio</a>
+                <a href="http://localhost:4000/portfolio/">Portfolio</a>
 
                   <ul class="dropdown">
                     
@@ -257,12 +249,57 @@
                         
                       
 
-                      <li><a href="https://Chocbanana.github.io/portfolio/ceramics/">Ceramics</a></li>
+                      <li><a href="http://localhost:4000/portfolio/ceramics/">Ceramics</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/portfolio/ink/">Ink</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/portfolio/paint/">Paint</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/portfolio/digital/">Digital</a></li>
+                    
+
+                      
+                        
+                      
+
+                      <li><a href="http://localhost:4000/portfolio/pencil/">Pencil</a></li>
                     
                   </ul>
                   
               </li>
               <li class="divider"></li>
+            
+          
+        
+
+              
+                
+              
+
+          
+          
+
+            
+            
+              <li><a href="http://localhost:4000/code/">Code</a></li>
+              <li class="divider"></li>
+
+            
             
           
         
@@ -278,7 +315,7 @@
             
 
               <li class="has-dropdown">
-                <a href="https://Chocbanana.github.io/code/">Code</a>
+                <a href="http://localhost:4000/blog/">Blog</a>
 
                   <ul class="dropdown">
                     
@@ -287,46 +324,12 @@
                         
                       
 
-                      <li><a href="https://Chocbanana.github.io/code/website/">This Website</a></li>
+                      <li><a href="http://localhost:4000/milestones/">Milestones</a></li>
                     
                   </ul>
                   
               </li>
               <li class="divider"></li>
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="https://Chocbanana.github.io/blog/">Blog</a></li>
-              <li class="divider"></li>
-
-            
-            
-          
-        
-
-              
-                
-              
-
-          
-          
-
-            
-            
-              <li><a href="https://Chocbanana.github.io/milestones/">Milestones</a></li>
-              <li class="divider"></li>
-
-            
             
           
         
@@ -357,8 +360,8 @@
 <div id="masthead-no-image-header">
 	<div class="row">
 		<div class="small-12 columns">
-			<a id="logo" href="https://Chocbanana.github.io" title="Infinite Abstraction – It's fractals all the way down">
-				<img src="https://Chocbanana.github.io/assets/img/logo.png" alt="Infinite Abstraction – It's fractals all the way down">
+			<a id="logo" href="http://localhost:4000" title="Infinite Abstraction – It's fractals all the way down">
+				<img src="http://localhost:4000/assets/img/logo.png" alt="Infinite Abstraction – It's fractals all the way down">
 			</a>
 		</div><!-- /.small-12.columns -->
 	</div><!-- /.row -->
@@ -437,7 +440,7 @@
 
             <p class="shadow-black">
               A site made to showcase portfolios and (eventually) cool apps.
-              <a href="https://Chocbanana.github.io/info/">More ›</a>
+              <a href="http://localhost:4000/info/">More ›</a>
             </p>
           </div><!-- /.large-6.columns -->
 
@@ -562,7 +565,7 @@
     </footer> 
 
 
-		<script src="https://Chocbanana.github.io/assets/js/javascript.min.js"></script>
+		<script src="http://localhost:4000/assets/js/javascript.min.js"></script>
 
 
 

@@ -8,6 +8,14 @@
   dropdown:
   - title: "Ceramics"
     url: "/portfolio/ceramics/"
+  - title: "Ink"
+    url: "/portfolio/ink/"
+  - title: "Paint"
+    url: "/portfolio/paint/"
+  - title: "Digital"
+    url: "/portfolio/digital/"
+  - title: "Pencil"
+    url: "/portfolio/pencil/"
   # - title: "Grid & Colors"
   #   url: "/design/grid/"
 

@@ -5,12 +5,74 @@
 	<channel>
 		<title>Infinite Abstraction</title>
 		<description>A site made to showcase portfolios and (eventually) cool apps.</description>
-		<link>https://Chocbanana.github.io/</link>
-		<atom:link href="https://Chocbanana.github.io/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://localhost:4000/</link>
+		<atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Pencil</title>
+				<link>http://localhost:4000/portfolio/pencil/</link>
+				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157657666322230&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/pencil/</guid>
+			</item>
+		
+			<item>
+				<title>Paintings</title>
+				<link>http://localhost:4000/portfolio/paintings/</link>
+				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157658054521292&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/paintings/</guid>
+			</item>
+		
+			<item>
+				<title>Inks</title>
+				<link>http://localhost:4000/portfolio/inks/</link>
+				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157658080700791&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/inks/</guid>
+			</item>
+		
+			<item>
+				<title>Digital</title>
+				<link>http://localhost:4000/portfolio/digital/</link>
+				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157657666322170&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+</description>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/digital/</guid>
+			</item>
+		
+			<item>
+				<title>Deep Dreamed</title>
+				<link>http://localhost:4000/portfolio/digital/deepdreamed/</link>
+				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
+				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+  &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157657666322200&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+  &lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/digital/deepdreamed/</guid>
+			</item>
 		
 			<item>
 				<title>Website</title>
-				<link>https://Chocbanana.github.io/code/website/</link>
+				<link>http://localhost:4000/code/website/</link>
 				<pubDate>Wed, 02 Sep 2015 00:00:00 -0700</pubDate>
 				<description>&lt;p&gt;I am very happy about the state of web development today: oriented towards simplicity and portability and extensibility, modular code, near-standardized methodology, but most of all I love how much incredibly useful code the community has put out!! I barely scratched the surface but even then most of this website is composed of work by others.&lt;/p&gt;
 
@@ -19,52 +81,58 @@
 - …is hosted on &lt;a href=&quot;https://pages.github.com/&quot;&gt;Github Pages&lt;/a&gt;. Free hosting (I’m not sure for how many GBs but I don’t need much), and is integrated with Jekyll so as soon as you push changes Github processes your folder and spits out a site!&lt;br /&gt;
 - …is distributed and uses the DNS from &lt;a href=&quot;https://www.cloudflare.com/&quot;&gt;Cloudflare&lt;/a&gt;. This sped up the redirect from the github page to my custom domain A LOT, and the service also provides some strong basic security as well as analytics. For free! Man I love the modern age&lt;br /&gt;
 - …uses the theme &lt;a href=&quot;http://phlow.github.io/feeling-responsive/&quot;&gt;Feeling Responsive&lt;/a&gt; made by phlow. The theme uses &lt;a href=&quot;http://foundation.zurb.com/&quot;&gt;Foundation&lt;/a&gt;, which is a codebase for styling and formatting the elements on a page.&lt;br /&gt;
-- …uses a bunch of other random services/widgets, like &lt;a href=&quot;http://www.wufoo.com/&quot;&gt;Wufoo&lt;/a&gt; for the contact form, &lt;a href=&quot;https://disqus.com/home/&quot;&gt;Disqus&lt;/a&gt; for comments, &lt;a href=&quot;https://flickrit.com/&quot;&gt;FlickrIt&lt;/a&gt; for producing Flickr galler slideshow widgets (IF I COULD ACTUALLY GET IT TO WORK), and others I probably forgot to list.&lt;/p&gt;
+- …uses a bunch of other random services/widgets, like &lt;a href=&quot;http://www.wufoo.com/&quot;&gt;Wufoo&lt;/a&gt; for the contact form, &lt;a href=&quot;https://disqus.com/home/&quot;&gt;Disqus&lt;/a&gt; for comments, &lt;a href=&quot;https://flickrit.com/&quot;&gt;FlickrIt&lt;/a&gt; for producing Flickr galler slideshow widgets, and others I probably forgot to list.&lt;/p&gt;
 
 &lt;p&gt;&lt;b&gt;I hope to eventually use:&lt;/b&gt;&lt;br /&gt;
 - a &lt;a href=&quot;https://github.com/jeromecoupe/jekyllstyleguide&quot;&gt;style guide&lt;/a&gt; to organize the changeable visual elements&lt;br /&gt;
 - &lt;a href=&quot;https://fortawesome.github.io/Font-Awesome/&quot;&gt;Font Awesome&lt;/a&gt;, a very nice and flexible set of icons (that can also move!)&lt;br /&gt;
 - the &lt;a href=&quot;https://jupyter.org/&quot;&gt;iPython/Jupyter notebook&lt;/a&gt; to demonstrate and examine code that I use, like neural network libraries&lt;/p&gt;
 
-&lt;p&gt;Happy browsing!! &amp;lt;3&lt;/p&gt;
+&lt;p&gt;The site’s source can be found &lt;a href=&quot;https://github.com/Chocbanana/Chocbanana.github.io&quot;&gt;on Github&lt;/a&gt;&lt;br /&gt;
+Happy browsing!! &amp;lt;3&lt;/p&gt;
 </description>
-				<guid isPermaLink="true">https://Chocbanana.github.io/code/website/</guid>
+				<guid isPermaLink="true">http://localhost:4000/code/website/</guid>
 			</item>
 		
 			<item>
 				<title>Ceramic Works</title>
-				<link>https://Chocbanana.github.io/portfolio/ceramics/</link>
+				<link>http://localhost:4000/portfolio/ceramics/</link>
 				<pubDate>Wed, 02 Sep 2015 00:00:00 -0700</pubDate>
-				<description>&lt;p&gt;I went to a ceramics class in college because I’ve always wanted to, and made this tree using like all the heavy metal paints:&lt;/p&gt;
+				<description>&lt;p&gt;&lt;a data-flickr-embed=&quot;true&quot; href=&quot;https://www.flickr.com/photos/135898386@N03/21077043955/in/dateposted-public/&quot; title=&quot;My Mug&quot;&gt;&lt;img src=&quot;https://farm6.staticflickr.com/5716/21077043955_8b31520c1a_o.jpg&quot; width=&quot;679&quot; height=&quot;471&quot; alt=&quot;My Mug&quot; /&gt;&lt;/a&gt;&lt;script async=&quot;&quot; src=&quot;//embedr.flickr.com/assets/client-code.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/p&gt;
 
-&lt;div class=&quot;flickr-gallery-class&quot;&gt;
-	&amp;lt;iframe id=&#39;iframe&#39; src=&#39;//flickrit.com/slideshowholder.php?height=166&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157655742234714&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&#39; &#39;scrolling=&#39;no&#39; frameborder=&#39;0&#39;style= width:100%; height:100%; position: absolute; top:0; left:0;&#39;
-	style=&#39;width=100%; height=100%; position=&#39;absolute&#39;; top=0; left=0&#39;&amp;gt;
+&lt;p&gt;I went to a ceramics class in college because I’ve always wanted to, and made this tree using like all the heavy metal paints:&lt;/p&gt;
+
+&lt;div style=&quot;position: relative; padding-bottom: 167%; height: 0; overflow: hidden;&quot;&gt;
+	&lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=166&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157655742234714&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+	&lt;/iframe&gt;
 &lt;/div&gt;
 
-&lt;p&gt;&lt;em&gt;(For some reason I like trees as ways to test out new artzy media..?)&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;(For some reason I like trees as ways to test out new media..?)&lt;/em&gt;&lt;/p&gt;
 
-&lt;p&gt;And it was pretty fun! So then I made the other thing I also like creating, a head, but then forgot about it after molding it and left it in the class for more than 4 months :( So unfortunately, it never got to be fired and teacher through it away :( lost to time…&lt;/p&gt;
+&lt;p&gt;And it was pretty fun! So then I made the other thing I like creating, a head, but forgot about it after molding it…. and left it in the class for more than 4 months :( So unfortunately, it never got to be fired in the kiln and teacher threw it away…. lost to time&lt;/p&gt;
 
-&lt;div style=&quot;position: relative; padding-bottom: 167%; height: 0; overflow: hidden;&quot;&gt;&amp;lt;iframe id=&#39;iframe2&#39; src=&#39;//flickrit.com/slideshowholder.php?height=166&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157655742207214&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&#39; scrolling=&#39;no&#39; frameborder=&#39;0&#39;style=width:100%; height:100%; position: absolute; top:0; left:0;&#39;&#39; &amp;gt;&lt;/div&gt;
+&lt;div style=&quot;position: relative; padding-bottom: 167%; height: 0; overflow: hidden;&quot;&gt;
+	&lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=166&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157655742207214&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
 
 &lt;!-- &lt;ul class=&quot;clearing-thumbs small-block-grid-4&quot; data-clearing&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head1.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head1.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head2.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head2.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head3.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head3.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head4.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head4.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head5.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head5.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head6.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head6.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://Chocbanana.github.io/images/ceramics/head7.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;https://Chocbanana.github.io/images/ceramics/head7.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head1.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head1.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head2.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head2.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head3.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head3.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head4.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head4.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head5.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head5.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head6.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head6.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://localhost:4000/images/ceramics/head7.jpg&quot;&gt;&lt;img data-caption=&quot;&quot; class=&quot;th&quot; src=&quot;http://localhost:4000/images/ceramics/head7.jpg&quot;&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt; --&gt;
 
 </description>
-				<guid isPermaLink="true">https://Chocbanana.github.io/portfolio/ceramics/</guid>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/ceramics/</guid>
 			</item>
 		
 			<item>
 				<title>Milestones</title>
-				<link>https://Chocbanana.github.io/milestones/</link>
+				<link>http://localhost:4000/milestones/</link>
 				<pubDate>Wed, 02 Sep 2015 00:00:00 -0700</pubDate>
 				<description>&lt;p&gt;I have such lofty plans, optimistic timelines, and obsessive ideas… but I always forget about the finite resource that is time.&lt;/p&gt;
 
@@ -77,8 +145,7 @@
 
 &lt;h2 id=&quot;todo-for-website&quot;&gt;TODO for website&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;FIX FLICKR GALLERY EMBEDDING&lt;/li&gt;
-  &lt;li&gt;Document what Js is included because right now it’s just one weird copypasta file&lt;/li&gt;
+  &lt;li&gt;Document what Js is included, because right now it’s just one weird copypasta file&lt;/li&gt;
   &lt;li&gt;Implement style guide, so that themes can be shifted&lt;/li&gt;
   &lt;li&gt;Integrate social media sharing for posts, and for contacting me&lt;/li&gt;
   &lt;li&gt;Use font awesome instead of current icons&lt;/li&gt;
@@ -92,12 +159,12 @@
 
 &lt;h2 id=&quot;done&quot;&gt;Done&lt;/h2&gt;
 &lt;ul&gt;
-  &lt;li&gt;Set up Flickr galleries&lt;/li&gt;
+  &lt;li&gt;Set up Flickr galleries/embedding&lt;/li&gt;
   &lt;li&gt;Lauch site&lt;/li&gt;
   &lt;li&gt;Spend a lot of time reading up on random things but also RNNs, web dev, network visualization, jekyll, and theano&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-				<guid isPermaLink="true">https://Chocbanana.github.io/milestones/</guid>
+				<guid isPermaLink="true">http://localhost:4000/milestones/</guid>
 			</item>
 		
 	</channel>

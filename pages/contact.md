@@ -1,6 +1,7 @@
 ---
 layout: page
 header:
+    pattern: "header_mandala.png"
     image_fullwidth: "header_mandala.png"
     caption: Image from dA
     caption_url: "http://hederahelix31415927.deviantart.com/art/Mandala-372726557"
