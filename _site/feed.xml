@@ -35,14 +35,14 @@
 		
 			<item>
 				<title>Inks</title>
-				<link>http://localhost:4000/portfolio/inks/</link>
+				<link>http://localhost:4000/portfolio/ink/</link>
 				<pubDate>Mon, 07 Sep 2015 00:00:00 -0700</pubDate>
 				<description>&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
   &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157658080700791&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
 </description>
-				<guid isPermaLink="true">http://localhost:4000/portfolio/inks/</guid>
+				<guid isPermaLink="true">http://localhost:4000/portfolio/ink/</guid>
 			</item>
 		
 			<item>

@@ -4,7 +4,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 	<id>http://localhost:4000/</id>
 	<title>Infinite Abstraction</title>
-	<updated>2015-09-07T15:27:00-07:00</updated>
+	<updated>2015-09-07T16:17:27-07:00</updated>
 
 	<subtitle>A site made to showcase portfolios and (eventually) cool apps.</subtitle>
 
@@ -93,9 +93,9 @@
 		</entry>
 	
 		<entry>
-			<id>http://localhost:4000/portfolio/inks/</id>
+			<id>http://localhost:4000/portfolio/ink/</id>
 			<title>Inks</title>
-			<link href="http://localhost:4000/portfolio/inks/" rel="alternate" type="text/html" title="Inks" />
+			<link href="http://localhost:4000/portfolio/ink/" rel="alternate" type="text/html" title="Inks" />
 			<updated>2015-09-07T00:00:00-07:00</updated>
 
 			
@@ -109,7 +109,7 @@
 				</author>
 			
 			<summary>Including also scratchboard, faint watercolor, and sharpie types</summary>
-			<content type="html" xml:base="http://localhost:4000/portfolio/inks/">&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
+			<content type="html" xml:base="http://localhost:4000/portfolio/ink/">&lt;div style=&quot;position: relative; padding-bottom: 81%; height: 0; overflow: hidden;&quot;&gt;
   &lt;iframe id=&quot;iframe&quot; src=&quot;//flickrit.com/slideshowholder.php?height=80&amp;amp;size=big&amp;amp;speed=stop&amp;amp;setId=72157658080700791&amp;amp;click=true&amp;amp;caption=on&amp;amp;counter=true&amp;amp;credit=1&amp;amp;thumbnails=2&amp;amp;transition=4&amp;amp;layoutType=responsive&amp;amp;sort=0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; style=&quot;width:100%; height:100%; position: absolute; top:0; left:0;&quot;&gt;
   &lt;/iframe&gt;
 &lt;/div&gt;
