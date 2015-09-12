@@ -2,6 +2,16 @@
 layout: default
 format: post
 ---
+
+<style>
+#content_body {
+	border: 2px solid black; 
+	border-radius: 10px;	
+	padding: 1rem;
+
+}
+</style>
+
 <div class="row t30">
 	<div class="small-10 columns{% if page.sidebar == NULL %} small-offset-1 end{% endif %}{% if page.sidebar == "left" %} small-push-2{% endif %}">
 		<article itemscope itemtype="http://schema.org/Article">
@@ -28,10 +38,12 @@ format: post
 				</span>
 			</header>
 
+			<div id="content_body">
 
 			{% if page.teaser %}
-			<p class="teaser" itemprop="description">
+			<p class="teaser" itemprop="description" align="center">
 				{{ page.teaser }}
+				<br>
 			</p>
 			{% endif %}
 
@@ -42,6 +54,8 @@ format: post
 			{% if page.show_meta == true %}
 			{% include meta_information %}
 			{% endif %}
+
+			</div>
 
 			{% if page.comments == true %}
 			{% include comments %}

@@ -10,7 +10,7 @@ skip_boilerplate: true
 <script src="js/sigma.min.js"></script>
 
 <!-- END SIGMA IMPORTS -->
-<div id="container">
+<div class="row" id="container">
   <style>
     #webgl {
       top: 0;
@@ -40,10 +40,10 @@ skip_boilerplate: true
       font-family: sans-serif;
     }
   </style>
-  <div id="webgl">
+  <div class="small-6 columns" id="webgl">
     <div class="label">WebGL renderer</div>
   </div>
-  <div id="canvas">
+  <div class="small-6 columns" id="canvas">
     <div class="label">Canvas renderer</div>
   </div>
 </div>
@@ -114,4 +114,4 @@ s.addRenderer({
 // Refresh the instance to refresh the new renderers:
 s.refresh();
 </script>
-</script>
+
