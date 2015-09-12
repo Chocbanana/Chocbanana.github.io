@@ -8,28 +8,19 @@ skip_boilerplate: true
 
 
 <script src="js/sigma.min.js"></script>
+<!-- <script src="js/sigma.parsers.gexf.min.js"></script> -->
+<script src="js/sigma.parsers.json.min.js"></script>
 
 <!-- END SIGMA IMPORTS -->
-<div class="row" id="container">
+<div  id="sigma-container">
   <style>
-    #webgl {
+      #sigma-container {
       top: 0;
       bottom: 0;
       left: 0;
-      right: 50%;
-      color: #fff;
-      background: #000;
-      position: absolute;
-    }
-
-    #canvas {
-      top: 0;
-      bottom: 0;
-      left: 50%;
       right: 0;
-      color: #000;
-      background: #fff;
       position: absolute;
+      background: white;
     }
 
     .label {
@@ -40,78 +31,164 @@ skip_boilerplate: true
       font-family: sans-serif;
     }
   </style>
-  <div class="small-6 columns" id="webgl">
-    <div class="label">WebGL renderer</div>
-  </div>
-  <div class="small-6 columns" id="canvas">
-    <div class="label">Canvas renderer</div>
-  </div>
 </div>
+
 <script>
-/**
- * This example spawns two different renderers with the same camera. When
- * the users will drag any of the renderers, it will move the other one
- * as well.
- *
- * Also, settings are different fo both renderers.
- *
- * It might look a bit useless (I prefer overkill...), but it makes
- * possible to develop renderers linked by their camera, for example to
- * implement a minimap.
- */
 
-var i,
-    N = 100,
-    E = 500,
-    s = new sigma(),
-    cam = s.addCamera();
+  // Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
 
-// Generate a random graph:
-for (i = 0; i < N; i++)
-  s.graph.addNode({
-    id: 'n' + i,
-    label: 'Node ' + i,
-    x: Math.random(),
-    y: Math.random(),
-    size: 4 + (3 * Math.random()) | 0
+    for (k in index)
+      neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
   });
+  
+  sigma.parsers.json('data/json/arctic.json', 
+  {
+    container: 'sigma-container'
+  },
+  function(s) {
+      // We first need to save the original colors of our
+      // nodes and edges, like this:
+      s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+      });
 
-for (i = 0; i < E; i++)
-  s.graph.addEdge({
-    id: 'e' + i,
-    source: 'n' + (Math.random() * N | 0),
-    target: 'n' + (Math.random() * N | 0),
-    size: 1 + Math.random()
-  });
+      // When a node is clicked, we check for each node
+      // if it is a neighbor of the clicked one. If not,
+      // we set its color as grey, and else, it takes its
+      // original color.
+      // We do the same for the edges, and we only keep
+      // edges that have both extremities colored.
+      s.bind('clickNode', function(e) {
+        var nodeId = e.data.node.id,
+            toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
 
-// Initialize two distinct renderers, each with its own settings:
-s.addRenderer({
-  container: document.getElementById('webgl'),
-  type: 'webgl',
-  camera: cam,
-  settings: {
-    defaultLabelColor: '#fff',
-    defaultNodeColor: '#999',
-    defaultEdgeColor: '#333',
-    edgeColor: 'default'
-  }
-});
+        s.graph.nodes().forEach(function(n) {
+          if (toKeep[n.id])
+            n.color = n.originalColor;
+          else
+            n.color = '#eee';
+        });
 
-s.addRenderer({
-  container: document.getElementById('canvas'),
-  type: 'canvas',
-  camera: cam,
-  settings: {
-    batchEdgesDrawing: true,
-    hideEdgesOnMove: true,
-    defaultLabelColor: '#000',
-    defaultNodeColor: '#666',
-    defaultEdgeColor: '#999',
-    edgeColor: 'default'
-  }
-});
+        s.graph.edges().forEach(function(e) {
+          if (toKeep[e.source] && toKeep[e.target])
+            e.color = e.originalColor;
+          else
+            e.color = '#eee';
+        });
 
-// Refresh the instance to refresh the new renderers:
-s.refresh();
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+      });
+
+      // When the stage is clicked, we just color each
+      // node and edge with its original color.
+      s.bind('clickStage', function(e) {
+        s.graph.nodes().forEach(function(n) {
+          n.color = n.originalColor;
+        });
+
+        s.graph.edges().forEach(function(e) {
+          e.color = e.originalColor;
+        });
+
+        // Same as in the previous event:
+        s.refresh();
+      });
+    });
 </script>
 
+<!-- 
+
+<script>
+
+  // Add a method to the graph model that returns an
+  // object with every neighbors of a node inside:
+  sigma.classes.graph.addMethod('neighbors', function(nodeId) {
+    var k,
+        neighbors = {},
+        index = this.allNeighborsIndex[nodeId] || {};
+
+    for (k in index)
+      neighbors[k] = this.nodesIndex[k];
+
+    return neighbors;
+  });
+
+  sigma.parsers.gexf(
+    'data/gexf/les-miserables.gexf',
+    {
+      container: 'sigma-container'
+    },
+    function(s) {
+      // We first need to save the original colors of our
+      // nodes and edges, like this:
+      s.graph.nodes().forEach(function(n) {
+        n.originalColor = n.color;
+      });
+      s.graph.edges().forEach(function(e) {
+        e.originalColor = e.color;
+      });
+
+      // When a node is clicked, we check for each node
+      // if it is a neighbor of the clicked one. If not,
+      // we set its color as grey, and else, it takes its
+      // original color.
+      // We do the same for the edges, and we only keep
+      // edges that have both extremities colored.
+      s.bind('clickNode', function(e) {
+        var nodeId = e.data.node.id,
+            toKeep = s.graph.neighbors(nodeId);
+        toKeep[nodeId] = e.data.node;
+
+        s.graph.nodes().forEach(function(n) {
+          if (toKeep[n.id])
+            n.color = n.originalColor;
+          else
+            n.color = '#eee';
+        });
+
+        s.graph.edges().forEach(function(e) {
+          if (toKeep[e.source] && toKeep[e.target])
+            e.color = e.originalColor;
+          else
+            e.color = '#eee';
+        });
+
+        // Since the data has been modified, we need to
+        // call the refresh method to make the colors
+        // update effective.
+        s.refresh();
+      });
+
+      // When the stage is clicked, we just color each
+      // node and edge with its original color.
+      s.bind('clickStage', function(e) {
+        s.graph.nodes().forEach(function(n) {
+          n.color = n.originalColor;
+        });
+
+        s.graph.edges().forEach(function(e) {
+          e.color = e.originalColor;
+        });
+
+        // Same as in the previous event:
+        s.refresh();
+      });
+    }
+  );
+</script>
+
+ -->
