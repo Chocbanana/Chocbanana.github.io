@@ -260,7 +260,7 @@ collections:
 
 #
 # Defaults for Style guide fields (TODO check if actually needed)
-scss: ""
-html: ""
+# scss: ""
+# html: ""
 
 

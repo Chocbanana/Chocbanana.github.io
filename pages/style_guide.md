@@ -3,7 +3,7 @@ layout: default
 title: "Style Guide"
 teaser: "Styled reusable components of this site"
 permalink: "/styleguide/"
-skip_boilerplate: false
+skip_boilerplate: true
 ---
 
 <h1 class="sg-h1">Styleguide Template</h1>
