@@ -1,6 +1,7 @@
 ---
 layout: annvis
 permalink: "/sigmatest/index.html"
+skip_boilerplate: true
 ---
 
 
@@ -18,7 +19,7 @@ permalink: "/sigmatest/index.html"
 <script src="js/sigma.exporters.svg.js"></script>
 
 <!-- END SIGMA IMPORTS -->
-<div  id="container">
+<span  id="container">
   <style>
     #sigma-container {
       top: 0;
@@ -29,15 +30,8 @@ permalink: "/sigmatest/index.html"
       background: white;
     }
 
-    .label {
-      position: absolute;
-      top: 10px;
-      left: 10px;
-      z-index: 1;
-      font-family: sans-serif;
-    }
-    #layout {
-      top: 10px;
+/*    #layout {
+      top: 10rem;
       left: 10px;
       position: fixed;
     }
@@ -45,34 +39,20 @@ permalink: "/sigmatest/index.html"
       top: 40px;
       left: 10px;
       position: fixed;
-    }   
+    }  */ 
   </style>
 
   <div id="sigma-container"></div>
-<!--   <button id="layout" type="button">Layout</button>
-  <button id="export" type="export">Export</button> -->
-</div>
+
+  <button id="layout" type="button">Layout</button>
+  <button id="export" type="export">Export</button>
+</span>
 
 
 
 <script>
 
-  // Listeners
-  var force = false;
-document.getElementById('layout').onclick = function() {
-  if (!force)
-    s.startForceAtlas2({slowDown: 10});
-  else
-    s.stopForceAtlas2();
-  force = !force;
-};
-
-document.getElementById('export').onclick = function() {
-  console.log('exporting...');
-  var output = s.toSVG({download: true, filename: 'mygraph.svg', size: 1000});
-  // console.log(output);
-};
-
+  //! Added methods ***
 
   // Add a method to the graph model that returns an
   // object with every neighbors of a node inside:
@@ -87,11 +67,12 @@ document.getElementById('export').onclick = function() {
     return neighbors;
   });
   
-  sigma.parsers.json('data/json/arctic.json', 
-  {
-    container: 'sigma-container'
-  },
-  function(s) {
+
+  // Instantiate sigma
+  var s = new sigma('sigma-container');
+
+  sigma.parsers.json('data/json/arctic.json', s,
+  function() {
       // We first need to save the original colors of our
       // nodes and edges, like this:
       s.graph.nodes().forEach(function(n) {
@@ -163,6 +144,24 @@ document.getElementById('export').onclick = function() {
         console.log(event);
       });
   });
+
+// Listeners
+var force = false;
+document.getElementById('layout').onclick = function() {
+  if (!force)
+    s.startForceAtlas2({slowDown: 10});
+  else
+    s.stopForceAtlas2();
+  force = !force;
+};
+
+document.getElementById('export').onclick = function() {
+  console.log('exporting...');
+  s.toSVG({download: true, filename: 'mygraph.svg', size: 500});
+  // console.log(output);
+};
+
+s.refresh();
 </script>
 
 <!-- 
