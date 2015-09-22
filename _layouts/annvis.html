@@ -11,56 +11,70 @@
             margin: 0;
         }
 
+        #sigma-viewer {
+            height: 100%;
+            margin: 0;
+        }
+
         #wrapper {
             min-height: 100%; 
         }
     </style>
     {% include head %}
+    <link rel="stylesheet" href="{{ site.url }}/assets/css/font-awesome.min.css"/>
+
+
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> -->
+
 
 </head>
 
 <body>
-    <div class="row" id="wrapper">
-    <div class="off-canvas-wrap">
-    <div class="inner-wrap">
-    
-        <section class="main-section">
-            {{ content }}
-        </section>
 
-        <button aria-expanded="false" class="left-off-canvas-toggle menu-icon">
-            Menu
-        </button>
+  <div class="off-canvas-wrap" style="height: 100%; margin: 0; max-height:100vh; max-width:100vw;" data-offcanvas>
+        <div class="inner-wrap" style="height: 100%; margin: 0">
 
-        <aside class="left-off-canvas-menu">
+
+                {{ content }}
+
           
-        </aside>
+            <a class="left-off-canvas-toggle button large" href="#" style="background-color: transparent; color:black">
+            <span class="fa fa-bars"></span>
+            Menu
+            </a>
+        </a>
 
 
-        <a class="exit-off-canvas"></a>
+        
+
+        
     </div>
-    </div>
-    </div>
+  </div>
+
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/modernizr.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/foundation.offcanvas.js"></script>
+<script>$(document).foundation();</script>
+
 
 
     <!-- 
     Footer Scripts 
-    -->
-    <script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
+-->
 
-    {% if site.google_analytics_tracking_id %}
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+{% if site.google_analytics_tracking_id %}
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
       (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
       m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-      ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('send', 'pageview');
+  ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
+  ga('set', 'anonymizeIp', true);
+  ga('send', 'pageview');
 
-    </script>
-    {% endif %}
+</script>
+{% endif %}
 </body>
 
 </html>

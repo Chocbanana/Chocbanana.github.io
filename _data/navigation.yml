@@ -11,7 +11,7 @@
   - title: "Ink"
     url: "/portfolio/ink/"
   - title: "Paint"
-    url: "/portfolio/paint/"
+    url: "/portfolio/paintings/"
   - title: "Digital"
     url: "/portfolio/digital/"
   - title: "Pencil"
@@ -30,6 +30,10 @@
   dropdown:
   - title: "Milestones"
     url: "/milestones/"
+
+- title: AnnVis
+  url: "/sigmatest/"
+  side: 'left'
 
 
 # - title: "Style Guide"

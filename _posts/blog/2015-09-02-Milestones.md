@@ -34,19 +34,20 @@ I have such lofty plans, optimistic timelines, and obsessive ideas... but I alwa
 
 
 ## TODO for website
+* Fix glitchy links 
 * Document what Js is included, because right now it's just one weird copypasta file
 * Implement style guide, so that themes can be shifted
 * Integrate social media sharing for posts, and for contacting me
 * Use font awesome instead of current icons
-* Add borders to posts (excluding everything below meta information)
 * Clean up directory
 * Implement RSS/Atom feed
 * Make new logo, doesn't even have to be good just less janky and more original
-* Fix archive displays
 * Randomize/auto-assign header images
 
 
 ## Done
+- * Fix archive displays
+- Add borders to posts (excluding everything below meta information)
 - Set up Flickr galleries/embedding
 - Lauch site
 - Spend a lot of time reading up on random things but also RNNs, web dev, network visualization, jekyll, and theano
