@@ -17,7 +17,7 @@
 
         {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
 
-        <a href="{{ site.url }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+        <a href="{{ site.url }}{{ post.url }}" title="Read {{ post.title escape_once }}"><strong>Read More&nbsp;›</strong></a>
       </p>
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->
@@ -27,16 +27,16 @@
 <nav id="pagination">
     {% if paginator.previous_page %}
       {% if paginator.previous_page == 1 %}
-      <a class="radius button small" href="{{ site.url }}/blog/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous_posts }}</a>
+      <a class="radius button small" href="{{ site.url }}/blog/" title="Previous Posts">&laquo; Previous Posts</a>
       {% else %}
-      <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.previous_page }}/" title="{{ site.data.language.previous_posts }}">&laquo; {{ site.data.language.previous }}</a>
+      <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.previous_page }}/" title="Previous Posts">&laquo; Previous</a>
       {% endif %}
     {% endif %}
 
-    <a class="radius button small" href="{{ site.url }}/archive/" title="{{ site.data.language.blog_archive }}">{{ site.data.language.blog_archive }}</a>
+    <a class="radius button small" href="{{ site.url }}/archive/" title=“Blog Archive“>Blog Archive</a>
 
     {% if paginator.next_page %}
-    <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.next_page }}/" title="{{ site.data.language.next_posts }}">{{ site.data.language.next }} &raquo;</a>
+    <a class="radius button small" href="{{ site.url }}/blog/page{{ paginator.next_page }}/" title=“Next Post”>Next &raquo;</a>
     {% endif %}
   </nav>
 

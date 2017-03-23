@@ -1,3 +1,6 @@
+- menu_name: "External Links"
+
+
 # - name: YouTube
 #   url: http://www.youtube.com/PhlowMedia
 #   class: icon-youtube
@@ -17,16 +20,24 @@
 #   url: http://soundcloud.com/phlow
 #   class: icon-soundcloud
 #   title: "Sounds und Downloads und mehr"
+#   
+
+- name: "Contact"
+  url: "/contact/"
 
 - name: GitHub
-  url: http://github.com/Chocbanana
-  class: icon-github
-  title: My Repositories
+  url: "http://github.com/Chocbanana"
+  class: "icon-github"
+  # title: My Repositories
 
-- name: Flickr
-  url: https://www.flickr.com/photos/135898386@N03/albums
-  class: icon-flickr
-  title: "Galleries Hosted on Flickr"
+- name: "Flickr"
+  url: "https://www.flickr.com/photos/135898386@N03/albums"
+  class: "icon-flickr"
+  # title: "Galleries Hosted on Flickr"
+  
+- name: "LinkedIn"
+  url: "http://www.linkedin.com/in/bhavanajonn"
+  class: "icon-linkedin"
 
 
 # - name: Xing

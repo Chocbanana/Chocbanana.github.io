@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Style Guide"
+permalink: "/styleguide/"
+skip_boilerplate: true
+---
+
+{% assign componentsByType = site.components | group_by:"type" %}
+
+<div class="large-3 medium-4 columns" data-sticky-container>
+    <ul class="vertical menu sticky" data-sticky data-options="marginTop:0; stickTo:top; stickyOn:small;">
+    {% for type in componentsByType %}
+        <li><a href="#type-{{ type.name }}">{{ type.name | capitalize }}</a></li>
+        <ul class="nested vertical menu">
+        {% for entry in type.items %}
+            <li><a href="#comp-{{ entry.title }}">{{ entry.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% endfor %}
+    </ul>
+</div>
+
+
+{% for type in componentsByType %}
+  <h3 class="sg-h2" id="type-{{ type.name }}">{{ type.name | capitalize }}</h3>
+  {% for entry in type.items %}
+    {% include component %}
+  {% endfor %}
+{% endfor %}

@@ -1,7 +1,6 @@
 ---
 layout: page-fullwidth
 comments: false
-breadcrumb: true
 show_meta: false
 
 

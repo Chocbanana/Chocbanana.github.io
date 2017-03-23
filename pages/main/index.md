@@ -4,30 +4,13 @@
 # inserted automagically in the webpage. To make
 # this work, you have to use › layout: frontpage
 #
-layout: frontpage
+layout: default
 header:
     pattern: "header_mandala.png"
     image_fullwidth: "header_mandala.png"
     caption: Image from dA
     caption_url: "http://hederahelix31415927.deviantart.com/art/Mandala-372726557"
-widget1:
-  title: "Code"
-  url: '/code/'
-  text: "Some coding projects that I've done, with details on the features, usage and source..."
-  image: header_osc.jpg
-
-widget2:
-  title: "Portfolio"
-  url: '/portfolio/'
-  image: portfolio/head.jpg
-  text: 'My various ventures in sketching, painting, charcoal, ink and pencil, ceramic, fabric paint, and paracord creations...'
-
-widget3:
-  title: Milestones
-  url: '/milestones/'
-  image: header_osc2.jpg
-  text: "Check out my future goals and changelog! I have such lofty plans, and obsessive ideas… but I always forget about the finite resource that is time."
-
+    
 permalink: /index.html
 
 ---

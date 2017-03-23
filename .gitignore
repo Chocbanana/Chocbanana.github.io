@@ -2,4 +2,6 @@ _site/
 .sass-cache/
 *.sublime*
 *.directory*
+node_modules/
+*.DS_Store
 

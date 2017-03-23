@@ -10,13 +10,6 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
-
-
-
-
 
 {% elsif page.header.title %}
 
@@ -28,11 +21,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
-
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -58,11 +47,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
-
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -86,11 +71,7 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
-
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -114,11 +95,8 @@
 	</div><!-- /.row -->
 </div><!-- /#masthead -->
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
 
-{% if page.header.caption_url && page.header.caption %}
+{% if page.header.caption_url and page.header.caption %}
 <div class="masthead-caption">
 	<a href="{{ page.header.caption_url }}">{{ page.header.caption }}</a>
 </div>
@@ -134,8 +112,5 @@
 
 {% elsif page.header == false %}
 
-{% if page.breadcrumb == true %}
-{% include breadcrumb %}
-{% endif %}
 
 {% endif %}

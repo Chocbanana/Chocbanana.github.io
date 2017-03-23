@@ -6,6 +6,7 @@
 *    › offset
 *    › category
 *    › tag
+*    > img
 *   
 *   Example for Category: {% include list-posts entries='3' offset='1' category='design' %}
 *   
@@ -35,11 +36,11 @@
       <p class="subheadline"><span class="teaser">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
       <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
-        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title  | escape_once }}"></a>{% endif %}
 
         {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
 
-        <a href="{{ site.url }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>Read More&nbsp;›</strong></a>
       </p>
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->
@@ -50,13 +51,13 @@
 
     {% endfor %}
 
-    <li class="text-right"><a href="{{ site.url }}/archive/"><strong>{{ site.data.language.more }}</strong></a></li>
+    <li class="text-right"><a href="{{ site.url }}/archive/"><strong>Read More&nbsp;›</strong></a></li>
 
 
 
   {% elsif category %}
 
-    {% for post in site.categories.[category] limit:include.entries offset:include.offset %}
+    {% for post in site.categories[category] limit:include.entries offset:include.offset %}
 
     {% if include.img %}
     <div class="row">
@@ -64,11 +65,11 @@
       <p class="subheadline"><span class="teaser">{% if post.categories %}{{ post.categories | join: ' &middot; ' }}{% endif %}</span> – {% if post.subheadline %}{{ post.subheadline }}{% endif %}</p>
       <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
       <p>
-        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title escape_once }}"></a>{% endif %}
+        {% if post.image.thumb %}<a href="{{ site.url }}{{ post.url }}" title="{{ post.title | escape_once }}"><img src="{{ site.urlimg }}{{ post.image.thumb }}" class="alignleft" width="150" height="150" alt="{{ page.title | escape_once }}"></a>{% endif %}
 
         {% if post.meta_description %}{{ post.meta_description | strip_html | escape }}{% elsif post.teaser %}{{ post.teaser | strip_html | escape }}{% endif %}
 
-        <a href="{{ site.url }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title escape_once }}"><strong>{{ site.data.language.read_more }}</strong></a>
+        <a href="{{ site.url }}{{ post.url }}" title="{{ site.data.language.read }} {{ post.title | escape_once }}"><strong>Read More&nbsp;›</strong></a>
       </p>
     </div><!-- /.small-12.columns -->
   </div><!-- /.row -->
@@ -79,12 +80,12 @@
 
     {% endfor %}
 
-    <li class="text-right"><a href="{{ site.url }}/{{category}}/"><strong>{{ site.data.language.more }}</strong></a></li>
+    <li class="text-right"><a href="{{ site.url }}/{{category}}/"><strong>Read More&nbsp;›</strong></a></li>
 
 
   {% elsif tag %}
 
-    {% for post in site.tags.[tag] limit:include.entries %}
+    {% for post in site.tags[tag] limit:include.entries %}
       <li><a href="{{ site.url }}{{ post.url }}">{% if post.subheadline %}{{ post.subheadline }} &middot; {% endif %}<strong>{{ post.title }}</strong></a></li>
     {% endfor %}
 

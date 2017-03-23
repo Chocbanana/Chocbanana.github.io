@@ -1,4 +1,13 @@
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script>
+<!-- <script src="{{ site.url }}{{ site.baseurl }}/assets/js/javascript.min.js"></script> -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/sizzle/2.3.3/sizzle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/what-input/4.1.1/what-input.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/foundation/6.3.0/js/foundation.min.js"></script>
+
+<script>
+      $(document).foundation();
+</script>       
 
 {% if page.header.image_fullwidth %}
 <script>
@@ -17,7 +26,7 @@
   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
   ga('create', '{{ site.google_analytics_tracking_id }}', 'auto');
-  ga('set', 'anonymizeIp', true);
+  ga('set', 'anonymizeIp', false);
   ga('send', 'pageview');
 
 </script>
